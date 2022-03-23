@@ -33,6 +33,7 @@ const PublicRoute = (route) => {
 
 export default (
     <Routes>
+        
         <Route exact element={<PublicRoute />}>
             <Route element={<Layout />}>
                 <Route path={path.LOGIN} element={<Login />} />

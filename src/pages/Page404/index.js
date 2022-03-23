@@ -28,7 +28,7 @@ function Copyright(props) {
 
 const theme = createTheme();
 
-export default function Login() {
+export default function Page404() {
   const [rememberLogin, setRememberLogin] = useState(false)
   const [inputLogin, setInputLogin] = useState({
     email: '',
